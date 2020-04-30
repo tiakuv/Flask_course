@@ -8,7 +8,7 @@ def main():
     return output
 
 @app.route('/departures/<departure>')
-def show_dep():
+def show_dep(departure):
     output = render_template("departure.html")
     return output
 

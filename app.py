@@ -13,7 +13,7 @@ def show_dep(departure):
     return output
 
 @app.route('/tours/<id>')
-def show_tour(id):
+def show_tour():
     output = render_template("tour.html")
     return output
 
